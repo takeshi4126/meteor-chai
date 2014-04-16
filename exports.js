@@ -1,3 +1,3 @@
 assert = chai.assert
 expect = chai.expect
-should = chai.should()
+should = chai.should

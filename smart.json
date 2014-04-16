@@ -3,7 +3,7 @@
   "description": "Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.",
   "homepage": "http://chaijs.com/",
   "author": "LaVaina Team <dev@lavaina.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "git": "https://github.com/lavaina/meteor-chai.git",
   "packages": {}
 }
