@@ -3,7 +3,7 @@ Npm.depends({
 });
 
 Package.describe({
-    summary: "Chai Assertion Library"
+    summary: "The Chai Assertion Library, v1.8.1"
 });
 
 Package.on_use(function (api, where) {
