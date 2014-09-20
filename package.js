@@ -17,6 +17,6 @@ Package.onUse(function (api, where) {
 });
 
 Package.onTest(function(api) {
-    api.use(['chai','tinytest', 'test-helpers',"templating","coffeescript"]);
+    api.use(['coffeescript', 'tinytest', 'test-helpers', 'spacejamio:chai']);
     api.addFiles(['tests/chai.coffee']);
 });
