@@ -10,6 +10,8 @@ Package.describe({
 });
 
 Package.onUse(function (api, where) {
+    api.versionsFrom('0.9.0');
+
     api.addFiles(['server.js'], ['server']);
     api.addFiles(['chai.js'], ['client']);
     api.addFiles(['exports.js'], ['client','server']);
