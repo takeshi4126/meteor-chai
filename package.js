@@ -10,7 +10,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-    api.versionsFrom('METEOR@0.9.0');
+    api.versionsFrom('0.9.0');
 
     api.addFiles(['server.js'], ['server']);
     api.addFiles(['chai.js'], ['client']);
