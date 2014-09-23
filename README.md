@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/spacejamio/meteor-chai.svg?branch=master)](https://travis-ci.org/spacejamio/meteor-chai)
 Overview
 ===========
 The Chai Assertion Library, packaged for Meteor client and server side use.
