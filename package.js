@@ -3,14 +3,14 @@ Npm.depends({
 });
 
 Package.describe({
-    summary: "The Chai Assertion Library, v1.8.1",
     name: "spacejamio:chai",
+    summary: "The Chai Assertion Library, v1.8.1",
     version: "1.0.0",
     git: "https://github.com/spacejamio/meteor-chai.git"
 });
 
-Package.onUse(function (api, where) {
-    api.versionsFrom('0.9.0');
+Package.onUse(function (api) {
+    api.versionsFrom('METEOR@0.9.0');
 
     api.addFiles(['server.js'], ['server']);
     api.addFiles(['chai.js'], ['client']);
