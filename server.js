@@ -1,1 +1,0 @@
-chai = Npm.require("chai");
