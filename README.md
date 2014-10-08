@@ -1,23 +1,37 @@
 [![Build Status](https://travis-ci.org/spacejamio/meteor-chai.svg?branch=master)](https://travis-ci.org/spacejamio/meteor-chai)
-Overview
-===========
-The Chai Assertion Library, packaged for Meteor client and server side use.
+## Overview
 
-Chai Release
-===========
-1.8.1
+The Chai Assertion Library, packaged for meteor.
 
-Documentation
-===========
-Please visit the [chaijs](http://chaijs.com/) homepage.
+## Chai Release
 
-Exports
-===========
+1.9.2
+
+## Exports
 * chai
 * assert
 * expect
 * should
 
-License
-===========
-The chaijs license is MIT. This Meteor package too.
+## Activate should
+
+Just call should() before using it.
+
+## chai.config.includeStack
+
+chai.config.includeStack is true by default. To change that:
+
+Server: Meteor.settings.chai.includeStack
+
+Client: Meteor.settings.public.chai.includeStack
+
+## Changelog
+
+[CHANGELOG](https://github.com/spacejamio/meteor-chai/blob/master/CHANGELOG.md)
+
+## Documentation
+
+Please visit the [chaijs](http://chaijs.com/) homepage.
+
+## License
+The chaijs license is MIT. This meteor package too.
