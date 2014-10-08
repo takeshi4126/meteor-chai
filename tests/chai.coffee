@@ -1,16 +1,17 @@
-Tinytest.add "chai - exists", (test) ->
-  test.isNotNull chai, "library chai is not defined"
-  test.notEqual chai, `undefined`, "library chai is not defined"
+foo = 'bar'
 
-Tinytest.add "chai - exists - assert", (test) ->
-  test.isNotNull assert, "assert is not defined"
-  test.notEqual assert, `undefined`, "assert is not defined"
+Tinytest.add "chai - chai exported", (test) ->
+  test.isTrue chai instanceof Object, "chai is not defined"
 
-Tinytest.add "chai - exists - expect", (test) ->
-  test.isNotNull expect, "expect is not defined"
-  test.notEqual expect, `undefined`, "expect is not defined"
+Tinytest.add "chai - assert exported", (test) ->
+  test.isTrue assert instanceof Object, "assert is not defined"
+  assert.equal(foo, 'bar', 'foo equal `bar`')
 
-Tinytest.add "chai - exists - should", (test) ->
-  test.isNotNull should, "library chai is not defined"
-  test.notEqual should, `undefined`, "library chai is not defined"
+Tinytest.add "chai - expect exported", (test) ->
+  test.isTrue expect instanceof Object, "expect is not defined"
+  expect(foo).to.equal('bar')
 
+Tinytest.add "chai - should exported", (test) ->
+  test.isTrue should instanceof Object, "should is not defined"
+  should()
+  foo.should.equal('bar')
