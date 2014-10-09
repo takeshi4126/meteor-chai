@@ -1,3 +1,3 @@
-assert = chai.assert
-expect = chai.expect
-should = chai.should
+assert = chai.assert;
+expect = chai.expect;
+should = chai.should;

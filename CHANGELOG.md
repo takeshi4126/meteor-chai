@@ -1,6 +1,7 @@
 ## 1.9.2_1
 
 * Update chai to version 1.9.2
+* Remove npm dependency - chai.js is now included in both client and server, which improves build time
 * Update required meteor version to 0.9.3
 * Update package version to use the new "wrapper package" package versions, introduced in meteor 0.9.3
 * Add support for configuring chai.config.includeStack via Meteor.settings
