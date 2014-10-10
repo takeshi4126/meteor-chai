@@ -1,7 +1,3 @@
-var wrapper = {};
-
-;(function(wrapper){
-
 /**
  * Require the given path.
  *
@@ -4799,7 +4795,4 @@ require.alias("chaijs-type-detect/lib/type.js", "chaijs-type-detect/index.js");
 require.alias("chaijs-deep-eql/lib/eql.js", "chaijs-deep-eql/index.js");
 require.alias("chai/index.js", "chai/index.js");
 
-wrapper["chai"] = require("chai");
-})(wrapper);
-
-chai = wrapper.chai;
+chai = require("chai");
