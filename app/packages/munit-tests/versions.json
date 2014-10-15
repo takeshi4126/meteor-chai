@@ -9,6 +9,10 @@
       "1.1.2"
     ],
     [
+      "spacejamio:chai",
+      "1.9.2_1"
+    ],
+    [
       "underscore",
       "1.0.1"
     ]
