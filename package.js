@@ -1,7 +1,7 @@
 Package.describe({
     name: "spacejamio:chai",
     summary: "The Chai Assertion Library, v1.9.2",
-    version: "1.9.2_1",
+    version: "1.9.2_2",
     git: "https://github.com/spacejamio/meteor-chai.git"
 });
 
