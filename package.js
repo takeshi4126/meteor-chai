@@ -1,6 +1,6 @@
 Package.describe({
-    name: "practicalmeteor:chai",
-    summary: "The Chai Assertion Library, v1.9.2",
+    name: "spacejamio:chai",
+    summary: "This package has been renamed to practicalmeteor:chai. Please use the new name instead.",
     version: "1.9.2_3",
     git: "https://github.com/practicalmeteor/meteor-chai.git"
 });
