@@ -1,3 +1,7 @@
+## 1.9.2_3
+
+Move package from spacejamio:chai to practicalmeteor:chai
+
 ## 1.9.2_2
 
 Fix bug when reading includeStack from Meteor.settings, if meteor was not run with a settings file.
