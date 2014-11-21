@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/spacejamio/meteor-chai.svg?branch=master)](https://travis-ci.org/spacejamio/meteor-chai)
+[![Build Status](https://travis-ci.org/practicalmeteor/meteor-chai.svg?branch=master)](https://travis-ci.org/practicalmeteor/meteor-chai)
 ## Overview
 
 The Chai Assertion Library, packaged for meteor.
@@ -27,7 +27,7 @@ Client: Meteor.settings.public.chai.includeStack
 
 ## Changelog
 
-[CHANGELOG](https://github.com/spacejamio/meteor-chai/blob/master/CHANGELOG.md)
+[CHANGELOG](https://github.com/practicalmeteor/meteor-chai/blob/master/CHANGELOG.md)
 
 ## Documentation
 
