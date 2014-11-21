@@ -1,8 +1,8 @@
 Package.describe({
-    name: "spacejamio:chai",
+    name: "practicalmeteor:chai",
     summary: "The Chai Assertion Library, v1.9.2",
-    version: "1.9.2_2",
-    git: "https://github.com/spacejamio/meteor-chai.git"
+    version: "1.9.2_3",
+    git: "https://github.com/practicalmeteor/meteor-chai.git"
 });
 
 
@@ -18,7 +18,7 @@ Package.onUse(function (api) {
 
 
 Package.onTest(function(api) {
-    api.use(['spacejamio:chai', 'coffeescript', 'tinytest', 'test-helpers']);
+    api.use(['practicalmeteor:chai', 'coffeescript', 'tinytest', 'test-helpers']);
 
     api.addFiles(['tests/chai.coffee']);
 });
