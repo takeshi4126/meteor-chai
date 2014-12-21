@@ -1,7 +1,6 @@
 # .travis.yml files can have comments
 # The language specific base vm to use for this repository
 language: node_js
-
 # The node.js version to install
 node_js: "0.10.29"
 
