@@ -15,3 +15,6 @@ Tinytest.add "chai - should exported", (test) ->
   test.isTrue should instanceof Object, "should is not defined"
   should()
   foo.should.equal('bar')
+
+Tinytest.add "chai-string - works", (test) ->
+  expect('12345').to.startWith('12')
