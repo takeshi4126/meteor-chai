@@ -5,7 +5,7 @@ The Chai Assertion Library, packaged for meteor.
 
 ## Chai Release
 
-1.9.2
+2.1.0
 
 ## Exports
 * chai
@@ -16,6 +16,10 @@ The Chai Assertion Library, packaged for meteor.
 ## Activate should
 
 Just call should() before using it.
+
+## Included chai plugins
+
+* [chai-string](http://chaijs.com/plugins/chai-string)
 
 ## chai.config.includeStack
 

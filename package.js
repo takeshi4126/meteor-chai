@@ -1,7 +1,7 @@
 Package.describe({
     name: "practicalmeteor:chai",
-    summary: "The Chai Assertion Library, v1.9.2",
-    version: "1.9.2_3",
+    summary: "The Chai Assertion Library, v2.1.0",
+    version: "2.1.0_1",
     git: "https://github.com/practicalmeteor/meteor-chai.git"
 });
 
@@ -11,7 +11,7 @@ Package.onUse(function (api) {
 
     api.use(['meteor', 'coffeescript']);
 
-    api.addFiles(['chai-1.9.2.js', 'chai-string-1.1.1.js', 'config.coffee', 'exports.js']);
+    api.addFiles(['chai-2.1.0.js', 'chai-string-1.1.1.js', 'config.coffee', 'exports.js']);
 
     api.export(['chai','assert','expect','should']);
 });

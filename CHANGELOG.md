@@ -1,3 +1,8 @@
+## 2.1.0_1
+
+* Update chai to version 1.9.2
+* Include the chai-string plugin v1.1.1
+
 ## 1.9.2_3
 
 Move package from spacejamio:chai to practicalmeteor:chai
