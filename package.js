@@ -2,6 +2,7 @@ Package.describe({
     name: "practicalmeteor:chai",
     summary: "The Chai Assertion Library, v2.1.0",
     version: "2.1.0_1",
+    testOnly: true,
     git: "https://github.com/practicalmeteor/meteor-chai.git"
 });
 
